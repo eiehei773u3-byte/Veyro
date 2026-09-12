@@ -25,12 +25,8 @@ pkg_check_modules(WEBKIT REQUIRED IMPORTED_TARGET webkit2gtk-4.1)
 
 # --- ИСПОЛНЯЕМЫЙ ФАЙЛ ---
 add_executable(${Veyro_NAME}
-  src/Core/Console/Console.cpp
-  src/Core/Interface/Interface.cpp
-  src/Core/Interface/WebView.cpp
   src/Core/Root.cpp
-  src/Main.cpp
-  src/Builder/Builder.cpp
+  src/Core/Main.cpp
 )
 
 # --- ПЕРЕДАЧА ПЕРЕМЕННЫХ В C++ ---
