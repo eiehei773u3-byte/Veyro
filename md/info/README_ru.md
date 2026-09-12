@@ -2,4 +2,4 @@
 [![**EN**](../assets/svg//Button/EN.svg)](../../README.md)
 <h2>docs</h2>
 
-* [**main**](md/docs/RU/Main.md)
+* [**main**](../docs/RU/Main.md)
