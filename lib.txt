@@ -1,4 +1,0 @@
-SDL2
-SDL2_image
-OpenGL
-GLEW
