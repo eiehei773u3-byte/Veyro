@@ -1,0 +1,40 @@
+/* docs/src/styles/mainCSS.css */
+
+.btn-lang {
+  /* Размеры в точности как у вашей SVG */
+  width: 61px;
+  height: 22px;
+  
+  /* Фоновые цвета и рамка из SVG */
+  background-color: #ff5555;
+  border: 2px solid #000000;
+  
+  /* Эмуляция пиксельной 3D-тени, которая была в коде SVG */
+  box-shadow: 2px 2px 0px #151515;
+  
+  /* Стили текста: monospace, bold, белый цвет */
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+  
+  /* Выравнивание текста ровно по центру кнопки */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Курсор при наведении и убирание стандартных стилей кнопки */
+  cursor: pointer;
+  box-sizing: border-box;
+  user-select: none;
+
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+/* Эффект нажатия (кнопка слегка утапливается) */
+.btn-lang:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #151515;
+}
