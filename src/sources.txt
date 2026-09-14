@@ -1,0 +1,10 @@
+# Драйверы и ядро
+kernel.cpp
+terminal/terminal.cpp
+
+# Системные команды (bash)
+bin/bash/clear.cpp
+bin/bash/help.cpp
+
+# Пользовательские команды
+bin/hello.cpp
